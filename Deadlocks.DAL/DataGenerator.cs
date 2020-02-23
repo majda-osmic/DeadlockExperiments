@@ -11,7 +11,7 @@ namespace Deadlocks.DAL
         private readonly HttpClient _httpClient = new HttpClient(); //TODO: lazy singleton
         private readonly string _uri = @"https://baconipsum.com/api/?type=meat-and-filler";
 
-        internal async Task<string> GenerateDataAsync_NoConfigureAwait()
+        internal async Task<string> GenerateDataAsync()
         {
             var responseMessage = await _httpClient.GetAsync(_uri);
             var result = await responseMessage.Content.ReadAsStringAsync();

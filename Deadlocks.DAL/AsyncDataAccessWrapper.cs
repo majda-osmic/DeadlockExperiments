@@ -14,12 +14,12 @@ namespace Deadlocks.DAL
 
         public async Task<string> GetDataAsync_V1()
         {
-            return await _generator.GenerateDataAsync_NoConfigureAwait();
+            return await _generator.GenerateDataAsync();
         }
 
         public async Task<string> GetDataAsync_V2()
         {
-            return _generator.GenerateDataAsync_NoConfigureAwait().Result;
+            return _generator.GenerateDataAsync().Result;
         }
 
         public async Task<string> GetDataAsync_V3()
