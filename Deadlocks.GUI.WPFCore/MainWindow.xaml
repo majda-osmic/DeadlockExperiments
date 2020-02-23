@@ -1,0 +1,60 @@
+﻿<Window x:Class="Deadlocks.GUI.WPFCore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deadlocks.GUI.WPFCore"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" MinWidth="80"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TabControl Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5">
+            <TabItem Header="Async delegates">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Button Command="{Binding Version1AsyncCommand}" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">Version 1</Button>
+                    <Button Command="{Binding Version2AsyncCommand}" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">Version 2</Button>
+                    <Button Command="{Binding Version3AsyncCommand}" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center">Version 3</Button>
+                    <Button Command="{Binding Version4AsyncCommand}" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center">Version 4</Button>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Sync delegates">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Button Command="{Binding Version1Command}" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">Version 1</Button>
+                    <Button Command="{Binding Version2Command}" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">Version 2</Button>
+                    <Button Command="{Binding Version3Command}" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center">Version 3</Button>
+                    <Button Command="{Binding Version4Command}" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center">Version 4</Button>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+
+
+        <GridSplitter Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
+        <TextBlock Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextWrapping="Wrap" Text="{Binding Text}"/>
+    </Grid>
+</Window>

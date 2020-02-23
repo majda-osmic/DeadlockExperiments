@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Deadlocks.Console/1.0.0": {
+        "dependencies": {
+          "Deadlocks.DAL": "1.0.0"
+        },
+        "runtime": {
+          "Deadlocks.Console.dll": {}
+        }
+      },
+      "Deadlocks.DAL/1.0.0": {
+        "runtime": {
+          "Deadlocks.DAL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Deadlocks.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Deadlocks.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

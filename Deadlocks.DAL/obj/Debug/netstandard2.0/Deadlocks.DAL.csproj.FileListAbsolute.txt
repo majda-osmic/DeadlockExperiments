@@ -1,0 +1,8 @@
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.DAL\bin\Debug\netstandard2.0\Deadlocks.DAL.deps.json
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.DAL\bin\Debug\netstandard2.0\Deadlocks.DAL.dll
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.DAL\bin\Debug\netstandard2.0\Deadlocks.DAL.pdb
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.DAL\obj\Debug\netstandard2.0\Deadlocks.DAL.csprojAssemblyReference.cache
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.DAL\obj\Debug\netstandard2.0\Deadlocks.DAL.AssemblyInfoInputs.cache
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.DAL\obj\Debug\netstandard2.0\Deadlocks.DAL.AssemblyInfo.cs
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.DAL\obj\Debug\netstandard2.0\Deadlocks.DAL.dll
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.DAL\obj\Debug\netstandard2.0\Deadlocks.DAL.pdb

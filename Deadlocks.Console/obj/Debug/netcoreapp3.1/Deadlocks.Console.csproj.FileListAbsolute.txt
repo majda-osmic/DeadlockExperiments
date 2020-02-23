@@ -1,0 +1,14 @@
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.Console\bin\Debug\netcoreapp3.1\Deadlocks.Console.exe
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.Console\bin\Debug\netcoreapp3.1\Deadlocks.Console.deps.json
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.Console\bin\Debug\netcoreapp3.1\Deadlocks.Console.runtimeconfig.json
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.Console\bin\Debug\netcoreapp3.1\Deadlocks.Console.runtimeconfig.dev.json
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.Console\bin\Debug\netcoreapp3.1\Deadlocks.Console.dll
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.Console\bin\Debug\netcoreapp3.1\Deadlocks.Console.pdb
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.Console\bin\Debug\netcoreapp3.1\Deadlocks.DAL.dll
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.Console\bin\Debug\netcoreapp3.1\Deadlocks.DAL.pdb
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.Console\obj\Debug\netcoreapp3.1\Deadlocks.Console.csprojAssemblyReference.cache
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.Console\obj\Debug\netcoreapp3.1\Deadlocks.Console.AssemblyInfoInputs.cache
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.Console\obj\Debug\netcoreapp3.1\Deadlocks.Console.AssemblyInfo.cs
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.Console\obj\Debug\netcoreapp3.1\Deadlocks.Console.csproj.CopyComplete
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.Console\obj\Debug\netcoreapp3.1\Deadlocks.Console.dll
+C:\Users\Majda\source\repos\Deadlocks.ASPNet\Deadlocks.Console\obj\Debug\netcoreapp3.1\Deadlocks.Console.pdb
