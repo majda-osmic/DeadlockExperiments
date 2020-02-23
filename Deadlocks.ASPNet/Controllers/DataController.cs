@@ -14,6 +14,10 @@ namespace Deadlocks.ASPNet.Controllers
     {
         private readonly AsyncDataAccessWrapper _dataAccess = new AsyncDataAccessWrapper();
 
+
+        [HttpGet]
+        public string Get() => "Pick a number";
+
         [HttpGet]
         public async Task<string> Get(int id)
         {
