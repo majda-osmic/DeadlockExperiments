@@ -20,6 +20,13 @@ namespace Deadlocks.DAL
             return result;
         }
 
+        internal Task<string> GenerateDataAsyncEquivalent()
+        {
+            var unfinishedResponseMessageTask = HttpClientInstance.GetAsync(_uri);
+            var unfinishedReadStringTask = unfinishedResponseMessageTask.ContinueWith(responseMessage => responseMessage.Result.Content.ReadAsStringAsync());
+            return unfinishedReadStringTask.Unwrap();
+        }
+
         internal async Task<string> GenerateDataAsync_ConfigureAwait()
         {
             var responseMessage = await HttpClientInstance.GetAsync(_uri).ConfigureAwait(false);
