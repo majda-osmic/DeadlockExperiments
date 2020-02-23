@@ -8,19 +8,21 @@ namespace Deadlocks.DAL
 {
     internal class DataGenerator
     {
-        private readonly HttpClient _httpClient = new HttpClient(); //TODO: lazy singleton
         private readonly string _uri = @"https://baconipsum.com/api/?type=meat-and-filler";
+
+        private static readonly Lazy<HttpClient> _lazy = new Lazy<HttpClient>(() => new HttpClient());
+        public static HttpClient HttpClientInstance => _lazy.Value;
 
         internal async Task<string> GenerateDataAsync()
         {
-            var responseMessage = await _httpClient.GetAsync(_uri);
+            var responseMessage = await HttpClientInstance.GetAsync(_uri);
             var result = await responseMessage.Content.ReadAsStringAsync();
             return result;
         }
 
         internal async Task<string> GenerateDataAsync_ConfigureAwait()
         {
-            var responseMessage = await _httpClient.GetAsync(_uri).ConfigureAwait(false);
+            var responseMessage = await HttpClientInstance.GetAsync(_uri).ConfigureAwait(false);
             var result = await responseMessage.Content.ReadAsStringAsync().ConfigureAwait(false);
             return result;
         }
